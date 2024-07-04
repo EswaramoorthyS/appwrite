@@ -7,8 +7,10 @@
 * Support Twilio messaging service SID in [8222](https://github.com/appwrite/appwrite/pull/8222)
 * Improve cache performance in [8230](https://github.com/appwrite/appwrite/pull/8230)
 * Add hk in translations in [8179](https://github.com/appwrite/appwrite/pull/8179)
-* Bump console to version 4.3.14 in [8321](https://github.com/appwrite/appwrite/pull/8321)
 * Update pwd abuse in [8255](https://github.com/appwrite/appwrite/pull/8255)
+* Bump console to version 4.3.23 [8363](https://github.com/appwrite/appwrite/pull/8363)
+* Remove detailed trace [8374](https://github.com/appwrite/appwrite/pull/8374)
+* Remove relationship attributes from realtime event payloads [8381](https://github.com/appwrite/appwrite/pull/8381)
 
 ### Fixes
 
@@ -21,6 +23,9 @@
 * Fix Create bucket endpoint validator for maximum file size in [8275](https://github.com/appwrite/appwrite/pull/8275)
 * Disable validation for subquery to prevent error in [8297](https://github.com/appwrite/appwrite/pull/8297)
 * Fix 'Missing required attribute "expire"' on `users.createSession()` in [8308](https://github.com/appwrite/appwrite/pull/8308)
+* Fix certificate emails in [8292](https://github.com/appwrite/appwrite/pull/8292)
+* Fix browser-cached deleted file in [8264](https://github.com/appwrite/appwrite/pull/8264)
+* Fix migration of firebase users [8377](https://github.com/appwrite/appwrite/pull/8377)
 
 ### Miscellaneous
 
@@ -31,6 +36,8 @@
 * Update cache & database in [8285](https://github.com/appwrite/appwrite/pull/8285)
 * Fix flaky certificate test in [8316](https://github.com/appwrite/appwrite/pull/8316)
 * Fix flaky function test in [8317](https://github.com/appwrite/appwrite/pull/8317)
+* Update account API reference [8305](https://github.com/appwrite/appwrite/pull/8305)
+* Update functions API reference [8346](https://github.com/appwrite/appwrite/pull/8346)
 
 # Version 1.5.7
 ## What's Changed
